@@ -1,0 +1,238 @@
+/* import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@400;700&family=Rubik:wght@300;400;500;600;900&display=swap');
+
+/* Start Global Rules */
+
+:root {
+  --main-color: #f7b035;
+  --second-color: #ce862b;
+  --main-transition: 0.3s;
+  --back-color: #232323;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+*::selection {
+  background-color: var(--main-color);
+  color: white;
+}
+
+/* end Global Rules */
+
+/* start coming soon */
+.coming {
+  background-image: url(../imgs/coming-soon/coming-soon_bg.jpg);
+  background-size: cover;
+  height: 123vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 2;
+}
+
+.coming .imgs {
+  width: 85%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.coming .imgs .imgs-line {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.coming .imgs .imgs-line:not(:last-child) {
+  top: 130px;
+}
+
+.coming .imgs .imgs-line:not(:first-child) {
+  top: 400px;
+}
+
+.coming .last-img {
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+}
+
+.coming .coming-content h1 {
+  font-size: 40px;
+  color: var(--main-color);
+  font-family: 'Delius Unicase';
+  margin: 40px 0;
+}
+
+.coming .coming-content .time {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.coming .coming-content .time .sep {
+  color: var(--main-color);
+  font-size: 70px;
+  font-weight: 500;
+}
+
+.coming .coming-content .time .unit {
+  color: white;
+  margin: 0 36px;
+}
+
+.coming .coming-content .time .unit span {
+  display: block;
+}
+
+.coming .coming-content .time .unit span:first-child {
+  margin-bottom: 20px;
+  font-size: 70px;
+  font-family: 'Delius Unicase';
+}
+
+.coming .coming-content .time .unit span:last-child {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.coming .coming-content p {
+  color: #e0e0e0;
+  width: 450px;
+  margin: 0 auto 30px;
+}
+
+.coming .coming-content form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto 35px;
+}
+
+.coming .coming-content form input,
+.coming .coming-content form button {
+  padding: 16px 30px;
+  border-radius: 30px;
+}
+.coming .coming-content form input {
+  width: 51%;
+  margin-right: 15px;
+  border: none;
+  caret-color: var(--main-color);
+}
+
+.coming .coming-content form input:focus {
+  outline: none;
+}
+
+.coming .coming-content form button {
+  border: 1px solid var(--main-color);
+  background-color: var(--main-color);
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: var(--main-transition);
+}
+
+.coming .coming-content form button:hover {
+  background-color: transparent;
+}
+
+.coming .coming-content .note {
+  color: #e0e0e0;
+}
+
+.coming .coming-content .social {
+  margin-top: 70px;
+}
+
+.coming .coming-content .social i {
+  font-size: 20px;
+  color: white;
+  margin-right: 15px;
+  transition: var(--main-transition);
+  cursor: pointer;
+}
+.coming .coming-content .social i:hover {
+  color: var(--main-color);
+}
+/* End coming soon */
+
+/* media query responsive */
+@media (max-width: 768px) {
+  .coming .coming-content h1 {
+    font-size: 25px;
+  }
+  .coming .coming-content .time .sep,
+  .coming .coming-content .time .unit span:first-child {
+    font-size: 40px;
+  }
+  .coming .coming-content .time .unit {
+    margin: 0 30px;
+  }
+}
+@media (max-width: 480px) {
+  .coming .imgs {
+    display: none;
+  }
+  .coming .coming-content .time .unit {
+    margin: 0 12px;
+  }
+  .coming .coming-content p {
+    width: 370px;
+  }
+  .coming .coming-content form {
+    width: 90%;
+  }
+  .coming .coming-content form input {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+}

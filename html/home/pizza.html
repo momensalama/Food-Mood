@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pizza</title>
+    <!-- main css files -->
+    <link rel="stylesheet" href="../../css/Normalize.css" />
+    <link rel="stylesheet" href="../../css/all.min.css" />
+    <link rel="stylesheet" href="../../css/pizza.css" />
+    <link
+      rel="shortcut icon"
+      href="../../imgs/home/hamburger.png"
+      type="image/x-icon"
+    />
+  </head>
+
+  <body>
+    <!-- overlay -->
+    <span class="overlay"></span>
+    <!-- start Header -->
+    <header>
+      <a href="#" class="logo">
+        <img src="../../imgs/home/logo.png" alt="logo" />
+      </a>
+      <nav>
+        <ul class="main-nav">
+          <li class="special case">
+            <a href="../../index.html"
+              >Home
+              <i class="fa-solid fa-angle-down"></i>
+            </a>
+            <!-- popup links -->
+            <div class="popup first">
+              <ul class="popup-nav">
+                <li>
+                  <a href="../../index.html">Burger Delivery</a>
+                  <img
+                    src="../../imgs/home/pimpa.svg"
+                    class="loader"
+                    alt="loader"
+                  />
+                </li>
+                <li class="active">
+                  <a href="./pizza.html">Pizza</a>
+                  <img
+                    src="../../imgs/home/pimpa.svg"
+                    class="loader static"
+                    alt="loader"
+                  />
+                </li>
+                <li>
+                  <a href="./dark-style.html">Food Menu</a>
+                  <img
+                    src="../../imgs/home/pimpa.svg"
+                    class="loader static"
+                    alt="loader"
+                  />
+                  <i class="fa-solid fa-angle-right"></i>
+                  <!-- second popup -->
+                  <div class="popup second">
+                    <ul class="popup-nav second-nav">
+                      <li>
+                        <a href="./dark-style.html">Dark Style</a>
+                        <img
+                          src="../../imgs/home/pimpa.svg"
+                          class="loader load-second"
+                          alt="loader"
+                        />
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="special">
+            <a href="../pages/about-us.html"
+              >Pages
+              <i class="fa-solid fa-angle-down"></i>
+            </a>
+            <!-- popup links -->
+            <div class="popup first">
+              <ul class="popup-nav">
+                <li>
+                  <a href="../pages/about-us.html">About Us</a>
+                  <img
+                    src="../../imgs/home/pimpa.svg"
+                    class="loader"
+                    alt="loader"
+                  />
+                </li>
+                <li>
+                  <a href="../pages/team.html">Team</a>
+                  <img
+                    src="../../imgs/home/pimpa.svg"
+                    class="loader"
+                    alt="loader"
+                  />
+                </li>
+                <li>
+                  <a href="../pages/faq.html">FAQ</a>
+                  <img
+                    src="../../imgs/home/pimpa.svg"
+                    class="loader"
+                    alt="loader"
+                  />
+                </li>
+                <li>
+                  <a href="../pages/coming soon.html">Coming Soon</a>
+                  <img
+                    src="../../imgs/home/pimpa.svg"
+                    class="loader"
+                    alt="loader"
+                  />
+                </li>
+                <li>
+                  <a href="../pages/our history.html">Our History</a>
+                  <img
+                    src="../../imgs/home/pimpa.svg"
+                    class="loader"
+                    alt="loader"
+                  />
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="special">
+            <a href="../blog/blog.html">Blog </a>
+          </li>
+          <li class="special">
+            <a href="../portfolio/portfolio.html">Portfolio </a>
+          </li>
+          <li class="special">
+            <a href="../shop/products.html"
+              >Shop
+              <i class="fa-solid fa-angle-down"></i>
+            </a>
+            <!-- popup links -->
+            <div class="popup first">
+              <ul class="popup-nav">
+                <li>
+                  <a href="../shop/products.html">Products</a>
+                  <img
+                    src="../../imgs/home/pimpa.svg"
+                    class="loader"
+                    alt="loader"
+                  />
+                </li>
+                <li>
+                  <a href="../shop/single.html">Shop Single</a>
+                  <img
+                    src="../../imgs/home/pimpa.svg"
+                    class="loader"
+                    alt="loader"
+                  />
+                </li>
+                <li>
+                  <a href="../shop/cart.html">Checkout</a>
+                  <img
+                    src="../../imgs/home/pimpa.svg"
+                    class="loader"
+                    alt="loader"
+                  />
+                </li>
+                <li>
+                  <a href="../shop/cart.html">Cart</a>
+                  <img
+                    src="../../imgs/home/pimpa.svg"
+                    class="loader"
+                    alt="loader"
+                  />
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="special">
+            <a href="../contact/contact.html" target="_blank">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="search first-content">
+        <div class="main-search front">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-solid close-search fa-x"></i>
+        </div>
+        <form class="popup-search">
+          <div class="hidden-search">
+            <input type="search" />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </form>
+        <a href="../contact/contact.html">call me now</a>
+      </div>
+    </header>
+
+    <div class="mobile-header">
+      <!-- toggle icon -->
+      <div class="toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <a class="logo-moblie">
+        <img src="../../imgs/home/logo.png" alt="logo" />
+      </a>
+      <div class="search second-content">
+        <div class="main-search back">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-solid close-search fa-x"></i>
+        </div>
+        <form class="popup-search">
+          <div class="hidden-search">
+            <input type="search" />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- mobile-nav -->
+    <div class="slide-content">
+      <div class="slide-content__head">
+        <img src="../../imgs/home/logo.png" alt="logo" />
+        <span class="close-slide">X</span>
+      </div>
+      <ul class="slide-content__nav">
+        <li>
+          <div class="link">
+            <a href="../../index.html" class="special case">Home</a>
+            <i class="fa-solid fa-angle-right"></i>
+          </div>
+          <!-- inner links -->
+          <ul class="inner-links">
+            <li>
+              <a href="../../index.html">Burger Delivery</a>
+              <img
+                src="../../imgs/home/pimpa.svg"
+                class="loader static"
+                alt="loader"
+              />
+            </li>
+            <li class="active">
+              <a href="./pizza.html">Pizza</a>
+            </li>
+            <li class="second-nav__mobile">
+              <div class="link">
+                <a href="./dark-style.html">Food Menu</a>
+                <i class="fa-solid fa-angle-right"></i>
+              </div>
+              <!-- second inner links -->
+              <ul class="second-inner">
+                <li>
+                  <a href="./dark-style.html">Dark Style</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <div class="link">
+            <a href="../pages/about-us.html">Pages</a>
+            <i class="fa-solid fa-angle-right"></i>
+          </div>
+          <!-- inner links -->
+          <ul class="inner-links">
+            <li>
+              <a href="../pages/about-us.html">About Us</a>
+            </li>
+            <li>
+              <a href="../pages/team.html">Team</a>
+            </li>
+            <li>
+              <a href="../pages/faq.html">FAQ</a>
+            </li>
+            <li>
+              <a href="../pages/coming soon.html">Coming Soon</a>
+            </li>
+            <li>
+              <a href="../pages/our history.html">Our History</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <div class="link">
+            <a href="../blog/blog.html">Blog</a>
+          </div>
+        </li>
+        <li>
+          <div class="link">
+            <a href="../portfolio/portfolio.html">Portfolio</a>
+          </div>
+        </li>
+        <li>
+          <div class="link">
+            <a href="../shop/products.html">Shop</a>
+            <i class="fa-solid fa-angle-right"></i>
+          </div>
+          <!-- inner links -->
+          <ul class="inner-links">
+            <li>
+              <a href="../shop/products.html">Products</a>
+            </li>
+            <li>
+              <a href="../shop/single.html">Shop Single</a>
+            </li>
+            <li>
+              <a href="../shop/cart.html">Checkout</a>
+            </li>
+            <li>
+              <a href="../shop/cart.html">Cart</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <div class="link">
+            <a href="../contact/contact.html">Contacts</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!-- end Header -->
+
+    <!-- Start Landing -->
+    <section class="landing">
+      <div class="moving-imgs">
+        <img src="../../imgs/pizza-imgs/cutlery.png" alt="cutlery" />
+        <img src="../../imgs/pizza-imgs/mushroom_slider.png" alt="mushroom" />
+        <img src="../../imgs/pizza-imgs/footer_leaf.png" alt="footer_leaf" />
+        <img src="../../imgs/pizza-imgs/pepper.png" alt="pepper" />
+      </div>
+      <div class="landing-content">
+        <div class="landing-text">
+          <div class="special-heading">
+            <h2>pizza time</h2>
+            <img
+              src="../../imgs/pizza-imgs/pizza_slider_03.png"
+              alt="pizza_slider_03"
+            />
+          </div>
+          <h1>Buy One Get Two</h1>
+          <p>
+            Due to the heat intensity of the drying process, the company
+            implemented the heat supply system remodeling
+          </p>
+          <div class="social-media">
+            <a href="#">order now</a>
+            <div class="social-icons">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+          </div>
+        </div>
+        <div class="landing-img">
+          <img
+            src="../../imgs/pizza-imgs/pizza_slider.png"
+            alt="pizza_slider"
+          />
+          <div class="offer-content">
+            <div class="offer-text">
+              <h3>Best offer</h3>
+              <span>-50%</span>
+            </div>
+            <img
+              src="../../imgs/pizza-imgs/pizza_slider_02.png"
+              alt="pizza_slider_02"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section second-landing">
+      <img src="../../imgs/pizza-imgs/pizza_01.png" alt="pizza_01" />
+      <div class="properties">
+        <div class="property">
+          <img src="../../imgs/pizza-imgs/pizza-slice.png" alt="pizza-slice" />
+          <h2>qualtiy Products</h2>
+          <p>FoodMood is an international chain of family restaurants.</p>
+        </div>
+        <div class="property">
+          <img src="../../imgs/pizza-imgs/bus.png" alt="bus" />
+          <h2>FAST DELIVERY</h2>
+          <p>FoodMood is an international chain of family restaurants.</p>
+        </div>
+        <div class="property">
+          <img src="../../imgs/pizza-imgs/eating.png" alt="eating" />
+          <h2>FAMILY RECIPES</h2>
+          <p>FoodMood is an international chain of family restaurants.</p>
+        </div>
+      </div>
+    </section>
+    <!-- End Landing -->
+
+    <!-- Start Pizza filter -->
+    <section class="section pizza">
+      <div class="title">
+        <h3>always quality</h3>
+        <h1>Discover Our Pizza</h1>
+        <img src="../../imgs/home/signature.svg" alt="signature" />
+      </div>
+      <ul class="filter">
+        <li class="active" data-pizza=".all">
+          <a>all</a>
+          <img src="../../imgs/pizza-imgs/filter-bg.svg" alt="filter-bg" />
+        </li>
+        <li data-pizza=".cheese">
+          <a>cheese</a>
+          <img src="../../imgs/pizza-imgs/filter-bg.svg" alt="filter-bg" />
+        </li>
+        <li data-pizza=".meat">
+          <a>meat</a>
+          <img src="../../imgs/pizza-imgs/filter-bg.svg" alt="filter-bg" />
+        </li>
+        <li data-pizza=".spisy">
+          <a>spisy</a>
+          <img src="../../imgs/pizza-imgs/filter-bg.svg" alt="filter-bg" />
+        </li>
+        <li data-pizza=".vegan">
+          <a>vegan</a>
+          <img src="../../imgs/pizza-imgs/filter-bg.svg" alt="filter-bg" />
+        </li>
+      </ul>
+      <div class="container">
+        <div class="pizza-box all vegan">
+          <div class="image">
+            <img
+              src="../../imgs/pizza-imgs/pizza_01-1-540x540.jpg"
+              alt="pizza_01-1"
+            />
+            <img
+              src="../../imgs/pizza-imgs/pizza_01-2-540x540.jpg"
+              alt="pizza_01-1"
+            />
+          </div>
+          <a href="#">Super Sicilian</a>
+          <p>Pizza cheese encompasses several varieties and types of...</p>
+          <div class="pizza-price">
+            <span class="pound">&#163;</span>
+            <span>40.00</span>
+          </div>
+          <div class="add-burger special">+ add to car</div>
+        </div>
+        <div class="pizza-box all meat">
+          <div class="image">
+            <img
+              src="../../imgs/pizza-imgs/pizza_02-1-540x540.jpg"
+              alt="pizza_01-1"
+            />
+            <img
+              src="../../imgs/pizza-imgs/pizza_02-2-540x540.jpg"
+              alt="pizza_01-1"
+            />
+          </div>
+          <a href="#">Classic Pepperoni</a>
+          <p>Pizza cheese encompasses several varieties and types of...</p>
+          <div class="pizza-price">
+            <span class="pound">&#163;</span>
+            <span>45.00</span>
+          </div>
+          <div class="add-burger special">+ add to car</div>
+        </div>
+        <div class="pizza-box all spisy">
+          <div class="image">
+            <img
+              src="../../imgs/pizza-imgs/pizza_03-1-540x540.jpg"
+              alt="pizza_01-1"
+            />
+            <img
+              src="../../imgs/pizza-imgs/pizza_03-2-540x540.jpg"
+              alt="pizza_01-1"
+            />
+          </div>
+          <a href="#">Hot Stuff</a>
+          <p>Pizza cheese encompasses several varieties and types of...</p>
+          <div class="pizza-price">
+            <span class="pound">&#163;</span>
+            <span>35.00</span>
+          </div>
+          <div class="add-burger special">+ add to car</div>
+        </div>
+        <div class="pizza-box all cheese vegan">
+          <div class="image">
+            <img
+              src="../../imgs/pizza-imgs/pizza_04-1-540x540.jpg"
+              alt="pizza_01-1"
+            />
+            <img
+              src="../../imgs/pizza-imgs/pizza_04-2-540x540.jpg"
+              alt="pizza_01-1"
+            />
+          </div>
+          <a href="#">Cheese Lover</a>
+          <p>Pizza cheese encompasses several varieties and types of...</p>
+          <div class="pizza-price">
+            <span class="pound">&#163;</span>
+            <span>40.00</span>
+          </div>
+          <div class="add-burger special">+ add to car</div>
+        </div>
+        <div class="pizza-box all cheese">
+          <div class="image">
+            <img
+              src="../../imgs/pizza-imgs/pizza_05-1-540x540.jpg"
+              alt="pizza_01-1"
+            />
+            <img
+              src="../../imgs/pizza-imgs/pizza_05-2-540x540.jpg"
+              alt="pizza_01-1"
+            />
+          </div>
+          <a href="#">Cheese & Chicken</a>
+          <p>Pizza cheese encompasses several varieties and types of...</p>
+          <div class="pizza-price">
+            <span class="pound">&#163;</span>
+            <span>40.00</span>
+          </div>
+          <div class="add-burger special">+ add to car</div>
+        </div>
+        <div class="pizza-box all meat">
+          <div class="image">
+            <img
+              src="../../imgs/pizza-imgs/pizza_06-1-540x540.jpg"
+              alt="pizza_01-1"
+            />
+            <img
+              src="../../imgs/pizza-imgs/pizza_06-2-540x540.jpg"
+              alt="pizza_01-1"
+            />
+          </div>
+          <a href="#">Super Beekon</a>
+          <p>Pizza cheese encompasses several varieties and types of...</p>
+          <div class="pizza-price">
+            <span class="pound">&#163;</span>
+            <span>45.00</span>
+          </div>
+          <div class="add-burger special">+ add to car</div>
+        </div>
+        <div class="pizza-box all meat">
+          <div class="image">
+            <img
+              src="../../imgs/pizza-imgs/pizza_07-1-540x540.jpg"
+              alt="pizza_01-1"
+            />
+            <img
+              src="../../imgs/pizza-imgs/pizza_07-2-540x540.jpg"
+              alt="pizza_01-1"
+            />
+          </div>
+          <a href="#">Creamy Melt</a>
+          <p>Pizza cheese encompasses several varieties and types of...</p>
+          <div class="pizza-price">
+            <span class="pound">&#163;</span>
+            <span>35.00</span>
+          </div>
+          <div class="add-burger special">+ add to car</div>
+        </div>
+        <div class="pizza-box all spisy">
+          <div class="image">
+            <img
+              src="../../imgs/pizza-imgs/pizza_08-1-540x540.jpg"
+              alt="pizza_01-1"
+            />
+            <img
+              src="../../imgs/pizza-imgs/pizza_08-2-540x540.jpg"
+              alt="pizza_01-1"
+            />
+          </div>
+          <a href="#">BBQ Pizza</a>
+          <p>Pizza cheese encompasses several varieties and types of...</p>
+          <div class="pizza-price">
+            <span class="pound">&#163;</span>
+            <span>40.00</span>
+          </div>
+          <div class="add-burger special">+ add to car</div>
+        </div>
+        <div class="pizza-box all spisy">
+          <div class="image">
+            <img
+              src="../../imgs/pizza-imgs/pizza_09-1-540x540.jpg"
+              alt="pizza_01-1"
+            />
+            <img
+              src="../../imgs/pizza-imgs/pizza_09-2-540x540.jpg"
+              alt="pizza_01-1"
+            />
+          </div>
+          <a href="#">Supreme Pizza</a>
+          <p>Pizza cheese encompasses several varieties and types of...</p>
+          <div class="pizza-price">
+            <span class="pound">&#163;</span>
+            <span>35.00</span>
+          </div>
+          <div class="add-burger special">+ add to car</div>
+        </div>
+      </div>
+    </section>
+    <!-- End Pizza filter -->
+
+    <!-- start statistics -->
+    <section class="section statistics" id="statistics">
+      <div class="container">
+        <div class="box">
+          <div class="box-content">
+            <h2 data-num="150">0</h2>
+            <span>+</span>
+          </div>
+          <span class="title">Burger at Hour</span>
+        </div>
+        <div class="box">
+          <h2 data-num="47">0</h2>
+          <span class="title">Skilled Professionals</span>
+        </div>
+        <div class="box">
+          <div class="box-content">
+            <h2 data-num="400">0</h2>
+            <span>+</span>
+          </div>
+          <span class="title">Orders Everyday</span>
+        </div>
+        <div class="box">
+          <div class="box-content">
+            <h2 data-num="340">0</h2>
+            <span>+</span>
+          </div>
+          <span class="title">Cups of Coffee</span>
+        </div>
+      </div>
+    </section>
+    <!-- End statistics -->
+
+    <!-- start menu -->
+    <section class="section menu">
+      <img
+        src="../../imgs/pizza-imgs/mushroom_slider.png"
+        alt="mushroom_slider"
+      />
+      <img
+        src="../../imgs/pizza-imgs/pepper_2.png"
+        class="pepper-back"
+        alt="pepper_2"
+      />
+      <div class="image">
+        <img
+          src="../../imgs/pizza-imgs/pizza_layer_01-1.png"
+          alt="pizza_layer_01-1"
+        />
+        <img
+          src="../../imgs/pizza-imgs/pizza_layer_01-2.png"
+          alt="pizza_layer_01-2"
+        />
+      </div>
+      <div class="menu-content">
+        <div class="title">
+          <h3>lets eat & drink</h3>
+          <h1>Discover Our menu</h1>
+          <img src="../../imgs/home/signature.svg" alt="signature" />
+        </div>
+        <ul class="details">
+          <li>
+            <div class="price-line">
+              <a href="#">Chicken Spin Roll</a>
+              <div class="price">$55.00</div>
+            </div>
+            <p>Chicken breast, cheddar wrapped in a crispy</p>
+          </li>
+          <li>
+            <div class="price-line">
+              <a href="#">BBQ Spin Roll</a>
+              <div class="price">$65.00</div>
+            </div>
+            <p>Bihari chicken chunks, sweet corn</p>
+          </li>
+          <li>
+            <div class="price-line">
+              <a href="#">Spring Spin Roll</a>
+              <div class="price">$30.00</div>
+            </div>
+            <p>Vegetables wrapped in a crispy tortilla</p>
+          </li>
+          <li>
+            <div class="price-line">
+              <a href="#">Vegan Spin Roll</a>
+              <div class="price">$30.00</div>
+            </div>
+            <p>CNow Available at FoodMood</p>
+          </li>
+          <li>
+            <div class="price-line">
+              <a href="#">Classic Spin Roll</a>
+              <div class="price">$45.00</div>
+            </div>
+            <p>Crispy potato wedges covered with spicy</p>
+          </li>
+        </ul>
+        <a href="./dark-style.html" class="view">view details</a>
+      </div>
+    </section>
+    <!-- End menu -->
+
+    <!-- start delivery -->
+    <section class="section delivery">
+      <div class="delivery-text">
+        <h3>fast delivery</h3>
+        <h1>Get Free & Fast Delivery with Our App</h1>
+        <img src="../../imgs/home/signature.svg" alt="signature" />
+        <p>
+          FoodMood is an international chain of fast food restaurants, which has
+          an experience of opening more than 170 restaurants.
+        </p>
+        <div class="download-app">
+          <a href="#">
+            <i class="fa-brands fa-apple"></i>
+            app store
+          </a>
+
+          <a href="#">
+            <i class="fa-brands fa-android"></i>
+            google play
+          </a>
+        </div>
+      </div>
+      <div class="imgs">
+        <img src="../../imgs/pizza-imgs/phone.png" alt="phone" />
+        <img src="../../imgs/pizza-imgs/pizza_05.png" alt="pizza_05" />
+      </div>
+    </section>
+    <!-- End delivery -->
+
+    <!-- Start Memories -->
+    <section class="memories">
+      <div class="title">
+        <h3>always quality</h3>
+        <h1>Discover Our Pizza</h1>
+        <img src="../../imgs/home/signature.svg" alt="signature" />
+      </div>
+      <div class="container">
+        <div class="memories-imgs">
+          <div class="memory">
+            <img
+              src="../../imgs/pizza-imgs/portfolio_02.jpg"
+              alt="portfolio_2"
+            />
+            <div class="popup-memory">
+              <div class="popup-memory_text">
+                <a href="#">fresh burger</a>
+                <a href="#" class="special">burgers</a>
+              </div>
+            </div>
+          </div>
+          <div class="memory">
+            <img
+              src="../../imgs/pizza-imgs/portfolio_03.jpg"
+              alt="portfolio_3"
+            />
+            <div class="popup-memory">
+              <div class="popup-memory_text">
+                <a href="#">master class</a>
+                <a href="#" class="special">pizza</a>
+              </div>
+            </div>
+          </div>
+          <div class="memory">
+            <img
+              src="../../imgs/pizza-imgs/portfolio_04.jpg"
+              alt="portfolio_4"
+            />
+            <div class="popup-memory">
+              <div class="popup-memory_text">
+                <a href="#">family recipes</a>
+                <a href="#" class="special">pizza</a>
+              </div>
+            </div>
+          </div>
+          <div class="memory">
+            <img
+              src="../../imgs/pizza-imgs/portfolio_05.jpg"
+              alt="portfolio_5"
+            />
+            <div class="popup-memory">
+              <div class="popup-memory_text">
+                <a href="#">fast delivery</a>
+                <a href="#" class="special">pizza</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end Memories -->
+
+    <!-- Start Footer -->
+    <footer>
+      <div class="imgs">
+        <div class="imgs-line one">
+          <img
+            src="../../imgs/pizza-imgs/mushroom_slider.png"
+            alt="mushroom_slider"
+          />
+          <img
+            src="../../imgs/pizza-imgs/footer_leaf_2.png"
+            alt="footer_leaf_2"
+          />
+        </div>
+        <div class="imgs-line two">
+          <img src="../../imgs/pizza-imgs/footer_leaf.png" alt="footer_leaf" />
+          <img
+            src="../../imgs/pizza-imgs/footer_tomato.png"
+            alt="footer_tomato"
+          />
+        </div>
+      </div>
+      <div class="foot-content">
+        <img src="../../imgs/home/logo.png" alt="logo" />
+        <ul>
+          <li>
+            <img src="../../imgs/pizza-imgs/location.svg" alt="location" />
+            <a href="#">27 Division St, NY 10002, USA</a>
+          </li>
+          <li>
+            <img src="../../imgs/pizza-imgs/phone.svg" alt="phone" />
+            <a href="#">+ 8(123) 578 987 455</a>
+          </li>
+          <li>
+            <img src="../../imgs/pizza-imgs/email.svg" alt="email" />
+            <a href="#">foodmood@webgeniuslab.com</a>
+          </li>
+        </ul>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright &copy; 2023 FoodMood by <span>Momen Salama</span>. All
+          Rights Reserved.
+        </p>
+        <div class="social-media">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- scroll to top -->
+    <span class="scroll-to">
+      <i class="fa-solid fa-angle-up"></i>
+    </span>
+  </body>
+  <script src="../../js/pizza.js"></script>
+</html>
